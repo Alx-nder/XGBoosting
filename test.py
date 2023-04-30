@@ -1,5 +1,7 @@
 def hi(wow):
     wow.append("iseehfiuefhsioehs")
            
-
-print(hi([]))
+helo=["aws"]
+# print(
+helo.append(1)
+print(helo)

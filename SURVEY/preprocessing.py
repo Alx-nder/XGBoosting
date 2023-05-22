@@ -90,6 +90,9 @@ kag_X_train,kag_X_test,kag_y_train,kag_y_test=model_selection.train_test_split(k
 
 Xtrain=kag_pl.fit_transform(kag_X_train,kag_y_train)
 Xtest=kag_pl.transform(kag_X_test)
-print(Xtrain)
+# print(Xtrain)
+
+import matplotlib.pyplot as plt
+from sklearn import tree
 
 

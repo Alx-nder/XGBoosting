@@ -92,6 +92,13 @@ Xtrain=kag_pl.fit_transform(kag_X_train,kag_y_train)
 Xtest=kag_pl.transform(kag_X_test)
 # print(Xtrain)
 
+from sklearn import preprocessing
+label_encoder=preprocessing.LabelEncoder()
+
+ytrain=label_encoder.fit_transform(kag_y_train)
+ytest=label_encoder.transform(kag_y_test)
+
+
 import matplotlib.pyplot as plt
 from sklearn import tree
 
